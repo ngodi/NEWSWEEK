@@ -2,9 +2,11 @@ body{
     background:#F4F5F6;
 }
 
-.container{
+.container-fluid{
     background:#FFFFFF;
     padding-bottom:50px;
+    width:80% !important;
+    margin:auto;
 }
 
 
@@ -18,9 +20,6 @@ nav{
 #title{
     font-size:80px;
     font-weight:bold;
-    line-height: 80px;
-  
-   font-family: sans-serif;
 }
 
 nav button, nav #date{
@@ -35,6 +34,7 @@ nav button{
     padding: 5px 10px;
     color:red;
     font-weight:bold;
+    margin:0 10px;
        
 }
 
@@ -45,13 +45,14 @@ nav button{
 
 #signin{
     display:flex;
-    justify-content: space-evenly;
+    justify-content: flex-end;
     align-items: center;
 }
 
 #signin p{
     font-weight:bold;
-    margin-top:15px;
+    margin-top: 10px;
+  
 }
 .navigation{
     display:flex;
@@ -65,17 +66,17 @@ nav button{
 .navigation p{
     margin-top:15px;
     color:black;
-    font-size:20px;
+    font-size:18px;
 }
 .navigation a{
     text-decoration: none;
     color:black;
     font-weight:bold;
-    font-size:23px;
+    font-size:18px;
     border-right:1px solid gray;
     line-height:20px;    
     margin:20px 0;
-    padding:0 10px;
+    padding:0 20px 0 0;
    
 }
 .navigation a:last-child{
@@ -287,7 +288,7 @@ margin-top:10px;
 }
 
 .us_item img{
-   width:120px;
+   width:100%;
    float:left;
 
 }
@@ -416,6 +417,8 @@ ul li:before {
 .newsweek{
     border-bottom:1px solid lightgray;
     padding-bottom:20px;
+    display:flex;
+    justify-content: space-between;
 
 }
 
@@ -432,3 +435,42 @@ footer a{
 a:hover{
     text-decoration: none;
 }
+
+
+@media only screen and (max-width: 600px) {
+    .container-fluid {
+      
+        width: 600px !important;
+      }
+  }
+@media only screen and (max-width: 992px) {
+       .navigation{
+        display:none;
+    }
+
+    #signin .fa-bars{
+        display:inline;
+    }
+
+ 
+    #title{
+        font-size:30px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+
+    #date{
+        display:none;
+    }
+
+  
+  }
+
+  @media only screen and (max-width: 1328px) {
+    .container-fluid {
+        width:100% !important;
+        margin:auto;
+      }
+  }
