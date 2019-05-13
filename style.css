@@ -349,7 +349,7 @@ ul li:before {
 .digital_col h4{
     color:red;
 }
-.digital ul lh{
+.digital ul lli:first-child{
     font-weight: bold;
 }
 .news_item{
