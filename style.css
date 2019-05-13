@@ -43,7 +43,16 @@ nav button{
     display: none;
 }
 
+#signin{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
 
+#signin p{
+    font-weight:bold;
+    margin-top:15px;
+}
 .navigation{
     display:flex;
     justify-content: space-between;
