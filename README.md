@@ -15,8 +15,6 @@
 [Live Demo Link](https://raw.githack.com/ngodi/NEWSWEEK/development/index.html)
 
 
-## Author
-
 👤 **Author**
 Ngodi albert
 - Github: [@ngodi](https://github.com/ngodi)
