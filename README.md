@@ -20,7 +20,7 @@
 👤 **Author**
 Ngodi albert
 - Github: [@ngodi](https://github.com/ngodi)
-- Twitter: [@albertngodi(https://twitter.com/albertngodi)
+- Twitter: [@albertngodi](https://twitter.com/albertngodi)
 - Linkedin: [linkedin](https://www.linkedin.com/in/albert-ngodi-b80267174/)
 
 
