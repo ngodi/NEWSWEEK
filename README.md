@@ -1,6 +1,6 @@
 # NewsWeek Magazine Clone
 
-> This project is part of Microverse Training on responsive web design. It consists of a clone of the frontend of the Newsweek magazine website, which canbe found [here](https://www.newsweek.com)
+> This project is part of Microverse Training project as a practice of html/css, bootstrap and responsive web design. It consists of cloning the frontend of the Newsweek magazine website, which canbe found [here](https://www.newsweek.com)
 
 ![screenshot](./newsweek.png)
 
@@ -9,6 +9,7 @@
 - HTML
 - CSS
 - BOOTSTRAP
+- RESPONSIVE WEB DESIGN
 
 ## Live Demo
 
